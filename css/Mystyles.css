@@ -2,7 +2,7 @@ body {
    font-size: 15px;
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    color: white;
-   background-color: bisque;
+   background-color: gray;
 }
 
 
@@ -10,6 +10,7 @@ body {
     background-image: url(https://cdn.wallpapersafari.com/99/72/TKtXOl.jpg);
     background-position: center;
     background-repeat: repeat;
+    z-index: 1;
 }
 
 a {
@@ -43,12 +44,12 @@ a:hover {
 }*/
 
 .bottomlinks {
-    bottom: 100px;
-    left: 5px;
-    right: 5px;
-    height: 1px;
+    /* bottom: 1px;
+    left: 1px;
+    right: 1px;
+    height: 1px; */
     text-align: center;
-    padding-top: 700px;
+    padding-top: 600px;
 }
 
 .floatright{
